@@ -1,7 +1,7 @@
 Package: shinyBS
 Type: Package
 Title: Twitter Bootstrap Components for Shiny
-Version: 0.61
+Version: 0.61.1
 Date: 2015-03-30
 Author: Eric Bailey
 Maintainer: Eric Bailey <ebailey@idem.in.gov>
@@ -10,7 +10,7 @@ Imports: shiny (>= 0.11), htmltools
 URL: https://ebailey78.github.io/shinyBS
 BugReports: https://github.com/ebailey78/shinyBS/issues
 License: GPL-3
-Packaged: 2015-03-30 12:16:24 UTC; ebailey
+Packaged: 2022-04-17 17:00:11 UTC; hornik
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2015-03-31 07:52:38
+Date/Publication: 2022-04-17 17:43:50 UTC
