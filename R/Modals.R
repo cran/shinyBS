@@ -16,7 +16,7 @@
 #'  
 #'@details
 #'Use \code{\link{bsModal}} in your UI to create a modal window. It works 
-#'like \code{\link{Collapses}} or \code{\link{tabPanel}}, any non-named arguments
+#'like \code{\link{Collapses}} or \code{\link[shiny:tabPanel]{tabPanel}}, any non-named arguments
 #'will be passed as content for the modal.
 #'
 #'Create a button or link and assign its \code{inputId} as the \code{trigger}

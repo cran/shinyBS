@@ -15,6 +15,8 @@
 #'@templateVar family_name Collapses
 #'@template item_details
 #'@template footer
+#'
+#'@importFrom stats runif
 #'@export
 bsCollapse <- function(..., id = NULL, multiple = FALSE, open = NULL) {
   

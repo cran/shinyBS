@@ -13,12 +13,12 @@
 #'} 
 #'
 #'@details
-#'Collapses are designed to mimic \code{\link{tabsetPanel}} in their implementation. 
+#'Collapses are designed to mimic \code{\link[shiny:tabsetPanel]{tabsetPanel}} in their implementation. 
 #'Start with \code{bsCollapse} to create a panel group, then fill it with panels
 #'using \code{bsCollapsePanel}. 
 #'
 #'\code{bsCollapse} acts as an input, so you can retrieve which panels are open 
-#'from the input object passed to the function in \code{\link{shinyServer}}. 
+#'from the input object passed to the function in \code{\link[shiny:shinyServer]{shinyServer}}. 
 #'
 #'\code{updateCollapse} can be used within your server logic to open/close 
 #'collapse panels or to change their style.

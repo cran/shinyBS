@@ -15,8 +15,8 @@
 #'      
 #'@details
 #'Create a button in the UI with \code{\link{bsButton}}. If \code{type = "action"}
-#'the button will behave like the standard \code{\link{actionButton}} in shiny.
-#'If \code{type = "toggle"} the button will behave like a \code{\link{checkboxInput}}
+#'the button will behave like the standard \code{\link[shiny:actionButton]{actionButton}} in shiny.
+#'If \code{type = "toggle"} the button will behave like a \code{\link[shiny:checkboxInput]{checkboxInput}}
 #'with an on and off state. It will return \code{TRUE} or \code{FALSE} to the Server
 #'depending on its state.
 #'

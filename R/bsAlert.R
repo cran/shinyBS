@@ -4,15 +4,20 @@
 #'is where alerts created in your Server logic will be displayed.
 #'
 #'@param anchorId A unique id the identifies the anchor.
+#'@param inline Logical value, determmines the class of the alert. Defaults to
+#'TRUE.
 #'
 #'@templateVar item_name bsAlert
 #'@templateVar family_name Alerts
 #'@template item_details
 #'@template footer
 #'@export
-bsAlert <- function(anchorId) {
+bsAlert <- function(anchorId, inline = TRUE) {
   
-  bsTag <- shiny::tags$div(class = "sbs-alert", id = anchorId, " ")
+  class <- "sbs-alert"
+  if(!inline) class = paste(class, "sbs-alert-hover")
+  
+  bsTag <- shiny::tags$div(class = class, id = anchorId, " ")
   htmltools::attachDependencies(bsTag, shinyBSDep)
   
 }

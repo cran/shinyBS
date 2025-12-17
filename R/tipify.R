@@ -2,7 +2,7 @@
 #'
 #'\code{tipify} can be wrapped around any shiny UI element to add a tooltip to the
 #'wrapped element. This should be a safer way to add tooltips to elements created with
-#'\code{\link{renderUI}}.
+#'\code{\link[shiny:renderUI]{renderUI}}.
 #'
 #'@param el A shiny UI element.
 #'@param title The content of the tooltip.

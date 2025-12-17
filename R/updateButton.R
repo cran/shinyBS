@@ -7,7 +7,7 @@
 #'@param session The session object passed to function given to shinyServer.
 #' 
 #'@details Because of the way it is coded, \code{updateButton} may work on buttons not
-#'created by \code{\link{bsButton}} such as \code{\link{submitButton}}.
+#'created by \code{\link{bsButton}} such as \code{\link[shiny:submitButton]{submitButton}}.
 #'
 #'See \code{\link{Buttons}} for more information about how to use \code{updateButton} with the rest of the Buttons family.
 #' 

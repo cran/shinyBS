@@ -14,10 +14,10 @@
 #'    in your UI.}
 #'    \item{\code{\link{tipify}}}{Wrap any UI element in \code{tipify} to add a
 #'    tooltip to the wrapped element. Preferred for elemented created with 
-#'    \code{\link{renderUI}}.}
+#'    \code{\link[shiny:renderUI]{renderUI}}.}
 #'    \item{\code{\link{popify}}}{Wrap any UI element in \code{popify} to add a
 #'    popover to the wrapped element. Preferred for elements created with 
-#'    \code{\link{renderUI}}.}
+#'    \code{\link[shiny:renderUI]{renderUI}}.}
 #'    \item{\code{\link{addTooltip}}}{Used in the Server logic to add a tooltip 
 #'    to an element in your UI.}
 #'    \item{\code{\link{addPopover}}}{Used in the Server logic to add a popover 
@@ -33,7 +33,7 @@
 #'Server logic. \code{\link{bsTooltip}} and \code{\link{bsPopover}} are used in
 #'the UI, and \code{\link{addTooltip}} and \code{\link{addPopover}} are used in
 #'the Server logic. \code{\link{tipify}} and \code{\link{popify}} can be used 
-#'within the UI or from within a \code{\link{renderUI}} in the Server logic. They
+#'within the UI or from within a \code{\link[shiny:renderUI]{renderUI}} in the Server logic. They
 #'also have the added advantage of not requiring that the UI element have an ID
 #'attribute.
 #'
@@ -52,7 +52,7 @@
 #'@section Changes:
 #'An \code{options} argument has been added to the creation functions to allow
 #'advanced users more control over how the tooltips and popovers appear. See
-#'the \href{http://getbootstrap.com}{Twitter Bootstrap 3 documentation} for more
+#'the \href{https://getbootstrap.com}{Twitter Bootstrap 3 documentation} for more
 #'details.
 #'
 #'@examples
@@ -141,9 +141,10 @@ buildTooltipOrPopoverOptionsList <- function(title, placement, trigger, options,
   }
   
   if(!missing(content)) {
+    content <- gsub("'", "&#39;", content, fixed = TRUE)
     if(is.null(options$content)) {
       options$content = shiny::HTML(content)
-    }
+    }    
   }
   
   if(is.null(options$placement)) {
@@ -157,6 +158,7 @@ buildTooltipOrPopoverOptionsList <- function(title, placement, trigger, options,
   
   if(is.null(options$title)) {
     options$title = title
+    options$title <- gsub("'", "&#39;", options$title, fixed = TRUE)  
   }
   
   return(options)

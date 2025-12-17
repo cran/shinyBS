@@ -6,11 +6,11 @@
 #'
 #'@param family A shinyBS family name
 #'@param display.mode The display mode to use when running the example. See
-#'\code{\link{runApp}}.
-#'@param \dots Other parameters to pass to \code{\link{runApp}}.
+#'\code{\link[shiny:runApp]{runApp}}.
+#'@param \dots Other parameters to pass to \code{\link[shiny:runApp]{runApp}}.
 #'
 #'@details
-#'This function is just a wrapper for \code{\link{runApp}} that runs copies of the
+#'This function is just a wrapper for \code{\link[shiny:runApp]{runApp}} that runs copies of the
 #'examples found in the family documention pages of \code{shinyBS}. By default,
 #'\code{display.mode} is set to \code{showcase} so you can see the code while 
 #'the app is running.

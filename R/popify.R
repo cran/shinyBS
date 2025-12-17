@@ -2,7 +2,7 @@
 #'
 #'\code{popify} can be wrapped around any shiny UI element to add a popover to the
 #'wrapped element. This should be a safer way to add popovers to elements created with
-#'\code{\link{renderUI}}.
+#'\code{\link[shiny:renderUI]{renderUI}}.
 #'
 #'@param el A shiny UI element.
 #'@param title The title of the popover.
