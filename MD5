@@ -1,5 +1,6 @@
-e8c4c4913a220e5b29317d6790fc21fd *DESCRIPTION
+1302b1a41faf11df6132fd1a3d03fb2d *DESCRIPTION
 99a4b10ea32c97a9634f8d945bdeb38e *NAMESPACE
+246cf500f8a5537e4ad1f8b428325bba *NEWS.md
 a100c5a0c5a6ce65ff7f9349f3075d11 *R/Alerts.R
 acf6a101bce869ded85ade7129e265d4 *R/Buttons.R
 ce847e6a681f6eb468df303150f04cf3 *R/Collapses.R
@@ -42,7 +43,7 @@ bad9aee73b2be916922afa555971c563 *inst/examples/Buttons/server.R
 8d08bac638e823d8c6d4a0cb8430f9ff *inst/tests/tipify_test2.R
 5afe1b650a3e0ff9f54ac0029ea4dfbe *inst/www/bootstrap3-typeahead.js
 de5b444d3f571fe21b4615959d0e00ec *inst/www/shinyBS.css
-253616c46690d74b1eed7d4495b2dce7 *inst/www/shinyBS.js
+c1b812b07305402bf384d459074a2abd *inst/www/shinyBS.js
 afb96d221561eea962eafbf5d078ecea *inst/www/typeahead_inputbinding.js
 e4d14ed71dc284cd9437f5b087145cfb *man/Alerts.Rd
 d6897d74b6310e8b6e81234a4ef136b0 *man/Buttons.Rd
