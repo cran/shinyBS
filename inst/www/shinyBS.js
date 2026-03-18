@@ -98,7 +98,7 @@ $.extend(shinyBS.inputBindings.collapse, {
     }
   },
   subscribe: function(el, callback) {
-    $(el).find(".collapse").on("shown.bs.collapse hidden.bs.collapse", callback);
+    $(el).find(".collapse").on("shown.bs.collapse hidden.bs.collapse", () => callback(true));
   },
   initialize: function(el) {
     var $el = $(el);

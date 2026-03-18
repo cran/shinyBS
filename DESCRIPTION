@@ -1,8 +1,8 @@
 Package: shinyBS
 Type: Package
 Title: Extra Twitter Bootstrap Components for Shiny
-Version: 0.64.0
-Date: 2026-03-11
+Version: 0.65.0
+Date: 2026-03-18
 Authors@R: 
     c(
         person(given = "Eric", family = "Bailey", email = "ebailey@idem.in.gov", 
@@ -22,11 +22,11 @@ License: GPL-3
 RoxygenNote: 7.3.3
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2026-03-11 13:58:19 UTC; fede
+Packaged: 2026-03-18 14:15:50 UTC; fede
 Author: Eric Bailey [aut],
   Federico Marini [cre, ctb] (ORCID:
     <https://orcid.org/0000-0003-3252-7758>),
   Jesse Koops [ctb]
 Maintainer: Federico Marini <marinif@uni-mainz.de>
 Repository: CRAN
-Date/Publication: 2026-03-11 17:10:02 UTC
+Date/Publication: 2026-03-18 15:10:02 UTC
